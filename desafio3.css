@@ -1,0 +1,213 @@
+
+
+.cat{
+  font-size: 1.5em;
+  font-family: 'lato', sans-serif;
+  color:black;
+  text-align: justify;
+  text-decoration:underline;
+  background-color: red;
+
+}
+
+body{
+  background-image: url("fondo10.jpg");
+}
+h3{
+    font-size: 1.1em;
+    color:black;
+  }
+ul li{
+  color:red;
+  list-style: none;
+  font: bold;
+
+
+}
+
+
+p{
+  color: black;
+  font-style:normal;
+
+
+}
+legend{
+  color: blue;
+}
+label{
+  color:blue;
+  font-size: 1em;
+}
+fieldset{
+
+border-style: solid;
+border-color: black;
+
+}
+
+video{
+width:1000px;
+height: 300px;
+}
+.lineablanca{
+  display: flex;
+  flex-direction: row;
+  /*text-align: center;
+  display: inline-block;*/
+}
+.lineablanca p ul li h3{
+  overflow: hidden;
+  text-align: justify;
+}
+
+.refri{
+margin: 20px;
+  border-style: solid;
+}
+.lava{
+
+  float: left;
+  border-style: solid;
+}
+.microondas{
+  margin: 20px;
+  float: left;
+  border-style: solid;
+}
+.volver1{
+  font-size: 1em;
+  float: none;
+}
+.calzado{
+  /*display: inline-block;
+  text-align: center;*/
+  display: flex;
+  flex-direction: column;
+}
+.calzado p ul li h3{
+  overflow: hidden;
+text-align: center;
+}
+
+.botines{
+margin-bottom: 20px;
+border-left:solid;
+
+}
+.zapatillas{
+border-left:solid;
+margin-bottom: 20px;
+}
+.sandalias{
+border-left:solid;
+}
+.volver2{
+  font-size: 1em;
+float:none;
+
+}
+.vestimenta{
+  display: inline-block;
+  text-align: center;
+}
+.vestimenta p ul li h3{
+  overflow: hidden;
+text-align: center;
+}
+
+.chaquetas{
+  margin: 20px;
+  float: left;
+  border-style: solid;
+}
+.camisas{
+  margin: 20px;
+  float: left;
+  border-style: solid;
+}
+.Pantalones{
+margin: 20px;
+  float: left;
+border-style: solid;
+}
+.volver1{
+  font-size: 1em;
+float:none;
+
+
+}
+
+.deportes{
+  display: inline-block;
+  text-align: center;
+
+}
+.deportes p ul li h3{
+  overflow: hidden;
+  text-align: center;
+}
+
+.balones{
+  margin: 30px;
+  float: left;
+  border-style: solid;
+}
+.baloncesto{
+  margin: 30px;
+  float: left;
+  border-style: solid;
+}
+.bicicletas{
+margin-bottom: 10px;
+  float: left;
+border-style: solid;
+}
+.volver4{
+  font-size: 1em;
+  float:none;
+  margin-bottom: 20px
+
+}
+.responsive{
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  grid-template-rows: repeat(2, 100px);
+  grid-column-gap: 30px;
+  grid-row-gap:  30px;
+  color:white;
+}
+.r1{
+
+  background-color: blue;
+}
+.r2{
+
+  background-color: red;
+}
+.r3{
+
+  background-color: green;
+}
+.r4{
+
+  background-color: magenta;
+}
+@media only screen and (min-width:501px) and (max-width:960px){
+  body{
+    background-image: url("fondo3.jpg");
+  }
+}
+
+@media only screen and (min-width:961px) and (max-width:1200px){
+  body{
+    background-image: url("fondo5.png");
+  }
+
+}
+.formu{
+  display:flex;
+flex-direction: column;
+align-content: center;
+
+}
